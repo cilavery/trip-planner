@@ -9,7 +9,8 @@ body {
 }
 
 nav {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Reem Kufi', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
   padding-left: 3em;
 }
 
@@ -33,14 +34,15 @@ nav {
 #selector-box {
   display: flex;
   flex-direction: column;
-  padding-left: 2em;
+  padding-left: 4em;
   font-family: 'PT Sans Narrow', sans-serif;
-
+  font-size: .6em;
 }
 
 #itinerary-box {
   display: flex;
   flex-direction: column;
+  font-size: .6em;
 
 }
 
@@ -48,12 +50,18 @@ nav {
   background-color: black;
   color: white;
   padding-left: 2em;
-  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Reem Kufi', sans-serif;
 
 }
 
+#itinerary-box-title h2 {
+  margin-top: .3em;
+  margin-bottom: .3em;
+}
+
 .itinerary-items {
-  padding-left: 2em;
+  padding-left: 4em;
   font-family: 'PT Sans Narrow', sans-serif;
 }
 
