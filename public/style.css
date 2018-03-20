@@ -5,10 +5,57 @@
 body {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #C1B5AD;
+  background-color: #b3c1c1;
+}
+
+nav {
+  font-family: 'Raleway', sans-serif;
+  padding-left: 3em;
+}
+
+#content {
+  display: flex;
+  flex-direction: row;
 }
 
 #map {
   height: 100vh;
-  width: 100vw;
+  flex: 2;
 }
+
+#sidebar{
+  flex: 1;
+  background-color: #f8fcfc;
+  display: flex;
+  flex-direction: column;
+}
+
+#selector-box {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2em;
+  font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
+#itinerary-box {
+  display: flex;
+  flex-direction: column;
+
+}
+
+#itinerary-box-title {
+  background-color: black;
+  color: white;
+  padding-left: 2em;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.itinerary-items {
+  padding-left: 2em;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+

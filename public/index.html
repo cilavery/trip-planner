@@ -3,31 +3,40 @@
   <head>
     <title>Trip Planner</title>
     <link href='https://api.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Raleway" rel="stylesheet">
     <link rel="stylesheet" href="./style.css"></link>
     <script src="./bundle.js" defer></script>
   </head>
   <body>
-    <nav></nav>
-    <div class="content">
+    <nav>
+      <h1>Dream Trip Planner (goblet not included)</h1>
+    </nav>
+    <div id="content">
         <div id="map"></div>
         <div id="sidebar">
           <div id="selector-box">
             <div class="selector-child">
-              <div class="selector-child-title"></div>
+              <div class="selector-child-title">
+                <h2> Hotels </h2>
+              </div>
               <div class="dropdown-btn-wrapper">
                 <div class="drowdown"></div>
                 <div class="btn"></div>
               </div>
             </div>
             <div class="selector-child">
-              <div class="selector-child-title"></div>
+              <div class="selector-child-title">
+                <h2>Restaurants</h2>
+              </div>
               <div class="dropdown-btn-wrapper">
                 <div class="drowdown"></div>
                 <div class="btn"></div>
               </div>
             </div>
             <div class="selector-child">
-              <div class="selector-child-title"></div>
+              <div class="selector-child-title">
+                <h2>Activities</h2>
+              </div>
               <div class="dropdown-btn-wrapper">
                 <div class="drowdown"></div>
                 <div class="btn"></div>
@@ -35,23 +44,31 @@
             </div>
         </div>
         <div id="itinerary-box">
-          <div id="itinerary-box-title"></div>
+          <div id="itinerary-box-title">
+            <h1>Itinerary:</h1>
+          </div>
           <div class="itinerary-items">
-            <div class="item-title"></div>
+            <div class="item-title">
+              <h2>My Hotel</h2>
+            </div>
             <div class="item-list-btn-wrapper">
               <div class="item-list"></div>
               <div class="btn"></div>
             </div>
           </div>
           <div class="itinerary-items">
-              <div class="item-title"></div>
+              <div class="item-title">
+                <h2>My Restaurants</h2>
+              </div>
               <div class="item-list-btn-wrapper">
                 <div class="item-list"></div>
                 <div class="btn"></div>
               </div>
             </div>
             <div class="itinerary-items">
-                <div class="item-title"></div>
+                <div class="item-title">
+                  <h2>My Activities</h2>
+                </div>
                 <div class="item-list-btn-wrapper">
                   <div class="item-list"></div>
                   <div class="btn"></div>
